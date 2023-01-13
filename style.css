@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.head-bg{
+    background-image: url(./images/donation4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.head{
+    padding: 175px 300px;
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+}
+.head h1{
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    color: white;
+}
+.head p{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.donate{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 0;
+    margin-top: 20px;
+}
+
+.donate button{
+    padding: 12px 20px;
+    color: white;
+    border-radius: 10px;
+    background: #FF5959;
+    border: none;
+}
+
+/* 2nd part */
+
+
+.Donate-Today{
+    padding: 100px 350px 50px;
+}
+.Donate-Today h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    color: #121212;
+}
+.Donate-Today p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #707070;
+
+}
+
+.amount{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(4,100px);
+    gap: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tk{
+    padding: 40px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    font-weight: 700;
+    font-size: large;
+    color: #707070;
+
+}
+.tk:hover{
+    border: 2px solid #FF5959;
+    background: #FFEEEE;
+}
+.tk-2{
+    border: 2px solid #FF5959;
+    background: #FFEEEE;
+}
+
+.Other-Amount{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+
+}
+.Other-Amount p{
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #B3B3B3;
+    line-height: 60px;
+    border-bottom: 1px solid #b3b3b3;
+    width: 400px;
+}
+
+#donate{
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #FF5959;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+     
+}
+
+
+/* 3rd part */
+
+
+.depend-your-donation{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr); 
+    gap: 20px 50px;
+}
+/* .Donation{
+   display: none;
+} */
+.left h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+}
+.left p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+    margin: 20px 10px;
+}
+.left button{
+    margin-top: 20px;
+    background-color: #FF5959;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.My-Updates{
+    width: 691px;
+    height: 130px;
+    margin: 0 auto;
+}
+.My-Updates h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    color: #121212;
+}
+.My-Updates p{
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #707070;
+    margin-top: 20px;
+
+}
+.Subscribe{
+    width: 809px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF4D6;
+    margin-top: 20px;
+}
+.Subscribe input{
+   padding: 10px 20px;
+   border-radius: 10px;
+   border: none;
+   background-color: aqua;
+   font-size: 18px;
+}
+#button{
+    background-color: #FF5959;
+    color: #FFEEEE;
+}
+footer{
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    padding: 30px 0;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width:576px) {
+
+    .head-bg{
+       background: url(./images/donation1.jpg);
+       background-position: center;
+       background-size: cover; 
+    }
+    .head{
+        padding: 20px;
+    }
+    .head h1{
+        font-weight: 500;
+        font-size: 35px;
+        text-align: center;
+        color: white;
+    }
+    .head p{
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        line-height: 20px;
+        padding: 10px 0;
+    }
+
+    /* 2nd part */
+    .Donate-Today{
+        padding: 40px 30px;
+    }
+    .Donate-Today h2{
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 44px;
+    }
+    .Donate-Today p{
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 10px;
+    
+    }
+
+    .amount{
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+    grid-template-rows: repeat(2,100px);
+    gap: 20px 10px;
+}
+/* #depan{
+    display: none;
+} */
+.tk{
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.Other-Amount{
+    padding: 20px 0;
+
+}
+.Other-Amount p{
+    font-size: 15px;
+    line-height: 20px;
+    color: #B3B3B3;
+    line-height: 40px;
+    width: 200px;
+}
+#donate{
+    margin-top: 15px;
+    padding: 8px 15px;
+    font-size: small;
+     
+}
+/* 3rd part */
+
+.depend-your-donation{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr); 
+    gap: 20px 50px;
+    padding: 10px 100px;
+   
+}
+.Donation{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.left h2{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 44px;
+    color: #121212;
+    text-align: center;
+}
+.left p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #707070;
+    margin: 10px 7px;
+    text-align: center;
+}
+.left-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.My-Updates{
+    width: 100%;
+    margin: 0 auto;
+}
+.My-Updates h2{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    color: #121212;
+}
+.My-Updates p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 15px;
+    padding:10px 50px;
+}
+.Subscribe{
+    width: 90%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.Subscribe input{
+   padding: 8px 15px;
+   border-radius: 10px;
+   border: none;
+   background-color: aqua;
+   font-size: 14px;
+}
+#button{
+    background-color: #FF5959;
+    color: #FFEEEE;
+    font-weight: 600px;
+}
+
+
+}
+
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .head-bg{
+        background: url(./images/donation1.jpg);
+        background-position: center;
+        background-size: cover;
+        
+     }
+     .head{
+         padding:90px 180px;
+     }
+     .head h1{
+         font-weight: 500;
+         font-size: 35px;
+         text-align: center;
+         color: white;
+     }
+     .head p{
+         font-size: 14px;
+         color: white;
+         text-align: center;
+         line-height: 20px;
+         padding: 10px 0;
+     }
+
+     /* 2nd part */
+
+     .Donate-Today{
+        padding: 60px 150px;
+    }
+    .Donate-Today h2{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .Donate-Today p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .amount{
+        gap: 20px 30px;
+    }
+    .tk{
+        padding: 30px;
+        font-weight: 600;
+    
+    }
+    .Other-Amount{
+        padding: 30px 0;
+    
+    }
+    .Other-Amount p{
+        font-size: 18px;
+        line-height: 45px;
+        width: 300px;
+    }
+    #donate{
+        margin-top: 20px;
+        padding: 12px 20px;
+        font-size: large;   
+    }
+
+/* 3rd part */
+
+.depend-your-donation{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr); 
+    gap: 20px 50px;
+    padding: 10px 100px;
+   
+}
+.Donation{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.left h2{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    color: #121212;
+    text-align: center;
+}
+.left p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #707070;
+    margin: 15px 10px;
+    text-align: center;
+}
+.left-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.My-Updates{
+    width: 90%;
+    height: 130px;
+    margin: 0 auto;
+}
+.My-Updates h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+.My-Updates p{
+    font-size: 16px;
+    line-height: 24px;
+
+}
+.Subscribe{
+    width: 90%;
+    margin-top: 20px;
+}
+.Subscribe input{
+   padding: 10px 20px;
+   border-radius: 10px;
+   border: none;
+   background-color: aqua;
+   font-size: 18px;
+}
+#button{
+    background-color: #FF5959;
+}
+
+
+}
